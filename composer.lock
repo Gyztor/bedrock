@@ -8,7 +8,7 @@
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v2.0.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
@@ -623,7 +623,7 @@
                 "shasum": ""
             },
             "require": {
-                "composer/installers": "~2.0",
+                "composer/installers": "~1.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
