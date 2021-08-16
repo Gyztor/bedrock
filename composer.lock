@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eadbbe9bbedac796ec5afb9f8c4db363",
+    "content-hash": "236b428747cbcd63dcdccd5b32df79a4",
     "packages": [
         {
             "name": "composer/installers",
@@ -1053,6 +1053,42 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/amazon-s3-and-cloudfront/"
+        },
+        {
+            "name": "wpackagist-plugin/hide-my-wp",
+            "version": "4.1.08",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/hide-my-wp/",
+                "reference": "tags/4.1.08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/hide-my-wp.4.1.08.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/hide-my-wp/"
+        },
+        {
+            "name": "wpackagist-plugin/wordfence",
+            "version": "7.5.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordfence/",
+                "reference": "tags/7.5.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence.7.5.5.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordfence/"
         }
     ],
     "packages-dev": [
